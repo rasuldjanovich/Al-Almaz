@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap" rel="stylesheet">
+    <title>Al Almaz</title>
+</head>
+<body>
+ 
+    <header class="header">
+        <a href="#home"  class="logo"> Al AlMAZ. </a>
+
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home"> Home </a>
+            <a href="#regions"> Regions </a>
+            <a href="#services"> Services </a>
+            <a href="#gallery"> Gallery </a>
+            <a href="#contact"> Contact </a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+
+        <div class="content">
+            <h1> make tour amazing </h1>
+            <p>Magnificent architectural ensembles, palaces, mosques and minarets decorated with blue mosaics and colorful paintings have been striking the eyes of millions of guests of Uzbekistan for many centuries</p>
+            
+            <a href="#" onclick="toggle()"> Watch More </a>
+        </div>
+
+        <div class="popup-video">
+            <span onclick="toggle()"> &times; </span>
+            <video src="./videos/Uzbekistan 4K UHD.mp4" muted controls></video>
+          </div>
+
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <section id="regions" class="region">
+        <h1 class="heading"> Regions </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/buxoro.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Bukhara </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/samarqand.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> Samarkand </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/qarshi.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> KashKadarya </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/navoiy.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Navoi </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/andijon.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Andijan </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/fargona.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> Fergana </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/jizzax.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Jizzakh </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/namangan.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Namangan </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/sidaryo.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Syrdarya </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/suxandaryo.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Surkhandarya </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/toshkent-vil.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> Tashkent </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/viloyatlar/xorazm.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> Khorezm </h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="load-more">Watch More</div>   
+    </section>
+
+    <section id="services" class="container">
+        <h1>Our Services</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aperiam, ratione magnam ipsa deserunt maiores.</p>
+
+        <div class="content-box">
+            <div class="card">
+                <i class="fa-solid fa-signal"></i>
+                <h2>Marketing Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Web App Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>24/7 Call Center Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-envelope"></i>
+                <h2>Social Media Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-signal"></i>
+                <h2>Corporate Business</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-sharp fa-solid fa-paintbrush"></i>
+                <h2>Creative Consultancy</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-car"></i>
+                <h2>Transport</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-hotel"></i>
+                <h2>Hotel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-utensils"></i>
+                <h2>Food and Drinks</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati exercitationem alias voluptatem tenetur molestiae? Quidem, tempora mollitia.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h1 class="heading"> Gallery </h1>
+        <div class="full-img" id="fullImgBox">
+            <img src="./images/tourist/1.jpg"  id="fullImg">
+            <span onclick="closeFullImg()"> X </span>
+        </div>
+        <div class="img-gallery">
+            <img src="./images/tourist/1.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/2.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/12.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/4.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/5.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/6.jpeg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/7.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/8.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/10.jpeg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/11.jpeg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/3.jpg" onclick="openFullImg(this.src)" alt="">
+            <img src="./images/tourist/13.jpg" onclick="openFullImg(this.src)" alt="">
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container-footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#regions">regions</a></li>
+                        <li><a href="#services">services</a></li>    
+                        <li><a href="#gallery">gallery</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">payment options</a></li>
+                        <li><a href="#">order status</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
